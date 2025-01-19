@@ -11,34 +11,33 @@ body{
 }
 nav{
     background: #3A6EA5;
-    height: 80px;
+    height: 120px;
     width: 100%;
     position: relative;
     z-index: 1000; 
 }
 label.logo{
     color: white;
-    font-size: 25px;
-    line-height: 80px;
+    width:75px;
+    height:80px;
+    margin-left: 50px;
+    font-size: 100px;
+    line-height: 100px;
     padding: 0 100px;
     font-weight: bold;
 }
-nav ul{
-    float: right;
-    margin-right: 20px;
+div.logo img { /* eye twitch; there is a big white space as outer circle, gotta fix photo size for that*/
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 0px;
 }
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+
+div.banner {
+    margin-bottom: 30px;
 }
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    font-weight: 500;
-    padding: 7px 13px;
-    border-radius: 3px;
-}
+
 a{
     background: #5BC0EB;
 }
